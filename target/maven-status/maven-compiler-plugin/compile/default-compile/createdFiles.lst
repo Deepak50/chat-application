@@ -1,0 +1,4 @@
+com\prj\chatapp\config\SecurityConfiguration.class
+com\prj\chatapp\ChatApplication.class
+com\prj\chatapp\controller\TestController.class
+com\prj\chatapp\config\SwaggerConfiguration.class
