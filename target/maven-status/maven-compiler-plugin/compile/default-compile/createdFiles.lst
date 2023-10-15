@@ -1,4 +1,9 @@
-com\prj\chatapp\config\SecurityConfiguration.class
 com\prj\chatapp\ChatApplication.class
-com\prj\chatapp\controller\TestController.class
+com\prj\chatapp\model\MsgData.class
 com\prj\chatapp\config\SwaggerConfiguration.class
+com\prj\chatapp\model\ResponseModel.class
+com\prj\chatapp\controller\TestController.class
+com\prj\chatapp\config\SecurityConfiguration.class
+com\prj\chatapp\config\WebSocketConfiguration.class
+com\prj\chatapp\controller\ViewController.class
+com\prj\chatapp\controller\ChatController.class

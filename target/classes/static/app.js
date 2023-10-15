@@ -18,6 +18,7 @@ function select(str) {
 function connect() {
 	var socket = new SockJS('/stomp-endpoint');
 	var userName = select("#userName").value;
+	console.log("----------------------------------------------",userName);
 	stompClient = Stomp.over(socket);
 	stompClient.connect({}, function(frame) {
 		setConnected(true);
