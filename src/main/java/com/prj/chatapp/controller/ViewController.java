@@ -2,11 +2,13 @@ package com.prj.chatapp.controller;
 
 import java.security.Principal;
 
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.ModelAndView;
 
 @RestController
+@CrossOrigin
 public class ViewController {
 	
 	@GetMapping("/")
@@ -20,6 +22,7 @@ public class ViewController {
 	}
 	
 	@GetMapping("/user")
+	
 	public ModelAndView user(Principal usr) {
 		if (usr != null)
 			System.out.println("all: " + usr.toString());
